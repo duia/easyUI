@@ -1,0 +1,227 @@
+[{
+	"menuid": "8",
+	"icon": "icon-share",
+	"menuname": "easyUI",
+	"menus": [{
+		"menuid": "141",
+		"menuname": "手风琴accordion",
+		"icon": "icon-nav",
+		"url": "",
+		"menus": [{
+			"menuid": "14301",
+			"menuname": "基础手风琴",
+			"icon": "icon-add",
+			"url": "jquery-easyui-1.4.2/demo/accordion/basic.html"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "流式手风琴",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/accordion/fluid.html"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "Ajax载入手风琴内容",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/accordion/ajax.html"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "手风琴控制",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/accordion/actions.html"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "手风琴工具组",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/accordion/tools.html"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "打开的手风琴",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/accordion/expandable.html"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "多个手风琴面板",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/accordion/multiple.html"
+		}]
+	},
+	{
+		"menuid": "142",
+		"menuname": "日历Calendar",
+		"icon": "icon-bell",
+		"url": "demo.html",
+		"menus": [{
+			"menuid": "14301",
+			"menuname": "基本日历",
+			"icon": "icon-wrench",
+			"url": "jquery-easyui-1.4.2/demo/calendar/basic.html"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "流式日历",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/calendar/"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "每周的第一天",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/calendar/"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "禁用的日历日期",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/calendar/"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "自定义日历",
+			"icon":"icon-home",
+			"url": "jquery-easyui-1.4.2/demo/calendar/"
+		}]
+		
+	},
+	{
+		"menuid": "143",
+		"menuname": "商品配置",
+		"icon": "icon-bell",
+		"url": "demo.html",
+			"menus": [{
+				"menuid": "14301",
+				"menuname": "商品列表",
+				"icon": "icon-wrench",
+				"url": "goods/list.do"
+			},
+			{
+				"menuid": "14302",
+				"menuname": "新增商品",
+				"icon":"icon-home",
+				"url": "goods/addgoodlist.do"
+			},
+			{
+				"menuid": "14303",
+				"menuname": "商品审核",
+				"icon":"icon-home",
+				"url": "goods/checkGoodsList.do"
+			},
+			{
+				"menuid": "14304",
+				"menuname": "往期商品管理",
+				"icon":"icon-home",
+				"url": "goods/publishGoodsList.do"
+			}]
+	},
+	{
+		"menuid": "144",
+		"menuname": "专区管理",
+		"icon": "icon-bell",
+		"url": "demo.html"
+	}]
+},
+{
+	"menuid": "56",
+	"icon": "icon-edit",
+	"menuname": "部门管理",
+		"menus": [{
+		"menuid": "31",
+		"menuname": "添加部门",
+		"icon": "icon-nav",
+		"url": "demo1.html"
+	},
+	{
+		"menuid": "321",
+		"menuname": "部门列表",
+		"icon": "icon-nav",
+		"url": "demo2.html",
+		"menus": [{
+			"menuid": "311",
+			"menuname": "添加部门 4",
+			"icon": "icon-nav",
+			"url": "demo1.html"
+		},
+		{
+			"menuid": "312",
+			"menuname": "部门列表 4",
+			"icon": "icon-nav",
+			"url": "demo2.html"
+		}]
+	}]
+},
+{
+	"menuid": "8",
+	"icon": "icon-users",
+	"menuname": "系统管理",
+	"menus": [{
+		"menuid": "141",
+		"menuname": "权限管理",
+		"icon": " icon-th",
+		"url": "demo2.html",
+		"menus": [{
+			"menuid": "14301",
+			"menuname": "操作权限管理",
+			"icon": "icon-wrench",
+			"url": "<%=path%>/admin/sysUser/sysUserManager.do"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "角色权限管理",
+			"icon":"icon-home",
+			"url": "<%=path%>/admin/role/roleManager.do"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "后台菜单管理",
+			"icon":"icon-home",
+			"url": "<%=path%>/index/getTree.do"
+		}]
+	},
+	{
+		"menuid": "142",
+		"menuname": "系统配置",
+		"icon": "icon-bell",
+		"url": "demo.html",
+		"menus": [{
+			"menuid": "14301",
+			"menuname": "参数设置",
+			"icon": "icon-wrench",
+			"url": "index/getList.do"
+		},
+		{
+			"menuid": "14302",
+			"menuname": "数据字典",
+			"icon":"icon-home",
+			"url": "index/getTree.do"
+		}]
+		
+	},
+	{
+		"menuid": "143",
+		"menuname": "系统维护",
+		"icon": "icon-sys",
+		"url": "demo.html",
+			"menus": [{
+				"menuid": "14301",
+				"menuname": "系统操作日志",
+				"icon": "icon-wrench",
+				"url": "goods/list.do"
+			},
+			{
+				"menuid": "14302",
+				"menuname": "系统通知日志",
+				"icon":"icon-home",
+				"url": "goods/add.do"
+			},
+			{
+				"menuid": "14303",
+				"menuname": "系统错误日志",
+				"icon":"icon-home",
+				"url": "index/getTree.do"
+			}]
+	}]
+}]
